@@ -48,6 +48,10 @@ public class MemberListServlet extends HttpServlet {
  w.write(" <td>10</td>");
  w.write(" </tr>");
 */
+
+
+        //-----=======DFDFDFDFDFDFDF
+
         for (Member member : members) {
             w.write(" <tr>");
             w.write(" <td> " + member.getId() + "</td>");
